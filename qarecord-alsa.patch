@@ -1,0 +1,33 @@
+--- qarecord-0.0.9/gui.h~	2003-06-04 09:22:43.000000000 -0700
++++ qarecord-0.0.9/gui.h	2003-11-12 16:38:48.000000000 -0800
+@@ -13,6 +13,8 @@
+ #include <qcheckbox.h>
+ #include <qlist.h>
+ #include <qtimer.h>
++#define ALSA_PCM_OLD_HW_PARAMS_API
++#define ALSA_PCM_OLD_SW_PARAMS_API
+ #include <alsa/asoundlib.h>
+ #include "recdata.h"
+ #include "capture.h"
+--- qarecord-0.0.9/recdata.h~	2003-06-04 09:22:44.000000000 -0700
++++ qarecord-0.0.9/recdata.h	2003-11-12 16:38:55.000000000 -0800
+@@ -8,6 +8,8 @@
+ #include <qlist.h>
+ #include <qwaitcondition.h>
+ #include <jack/jack.h>
++#define ALSA_PCM_OLD_HW_PARAMS_API
++#define ALSA_PCM_OLD_SW_PARAMS_API
+ #include <alsa/asoundlib.h>
+ 
+ #define DEFAULT_RATE            44100
+--- qarecord-0.0.9/capture.h~	2003-06-04 09:22:43.000000000 -0700
++++ qarecord-0.0.9/capture.h	2003-11-12 16:39:01.000000000 -0800
+@@ -6,6 +6,8 @@
+ #include <unistd.h>
+ #include <qobject.h>
+ #include <qthread.h>
++#define ALSA_PCM_OLD_HW_PARAMS_API
++#define ALSA_PCM_OLD_SW_PARAMS_API
+ #include <alsa/asoundlib.h>
+ #include "recdata.h"
+ 
