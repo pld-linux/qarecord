@@ -2,7 +2,7 @@ Summary:	Simple stereo recording tool
 Summary(pl):	Proste narzêdzie do nagrywania w stereo
 Name:		qarecord
 Version:	0.0.9
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		X11/Applications/Sound
 Source0:	ftp://ftp.suse.com/pub/people/mana/%{name}-%{version}.tar.bz2
