@@ -8,5 +8,5 @@ Exec=qarecord
 Icon=
 Terminal=false
 Type=Application
-Categories=Audio;Recorder;
+Categories=Qt;Audio;Recorder;
 # vi: encoding=utf-8
