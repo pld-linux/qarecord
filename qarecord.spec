@@ -22,7 +22,7 @@ and 32 bit WAVs. Can also be used as JACK client.
 %description -l pl
 QARecord jest prostym narzêdziem do nagrywania stereo. Mo¿e nagrywaæ
 pliki WAV w rozdzielczo¶ci 16 bit i 32 bit. Mo¿e byæ tak¿e u¿yty jako
-klient JACKa.
+klient JACK-a.
 
 %prep
 %setup -q
