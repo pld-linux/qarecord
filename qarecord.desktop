@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=QARecord
+Name[pl]=QARecord
+Comment=Simple recording tool (also JACK client)
+Comment[pl]=Proste narzędzie nagrywające (oraz klient JACKa)
+Exec=qarecord
+Icon=
+Terminal=false
+Type=Application
+Categories=Application;AudioVideo;
+# vi: encoding=utf-8
