@@ -9,6 +9,7 @@ Source0:	ftp://ftp.suse.com/pub/people/mana/%{name}-%{version}.tar.bz2
 # Source0-md5:	30412e77424d79870a886fbde429e5b3
 Source1:	%{name}.desktop
 Patch0:		%{name}-paths_and_optflags.patch
+Patch1:		%{name}-alsa.patch
 URL:		http://www.suse.de/~mana/kalsatools.html
 BuildRequires:	alsa-lib-devel >= 0.9.0
 BuildRequires:	jack-audio-connection-kit-devel >= 0.80.0
@@ -27,6 +28,7 @@ klient JACK-a.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
 %build
 %{__make} \
