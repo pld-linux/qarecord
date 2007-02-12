@@ -1,5 +1,5 @@
 Summary:	Simple stereo recording tool
-Summary(pl):	Proste narzêdzie do nagrywania w stereo
+Summary(pl.UTF-8):   Proste narzÄ™dzie do nagrywania w stereo
 Name:		qarecord
 Version:	0.0.9
 Release:	2
@@ -20,9 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 QARecord is a simple stereo recording tool. It can record both 16 bit
 and 32 bit WAVs. Can also be used as JACK client.
 
-%description -l pl
-QARecord jest prostym narzêdziem do nagrywania stereo. Mo¿e nagrywaæ
-pliki WAV w rozdzielczo¶ci 16 bit i 32 bit. Mo¿e byæ tak¿e u¿yty jako
+%description -l pl.UTF-8
+QARecord jest prostym narzÄ™dziem do nagrywania stereo. MoÅ¼e nagrywaÄ‡
+pliki WAV w rozdzielczoÅ›ci 16 bit i 32 bit. MoÅ¼e byÄ‡ takÅ¼e uÅ¼yty jako
 klient JACK-a.
 
 %prep
