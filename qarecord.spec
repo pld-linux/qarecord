@@ -1,5 +1,5 @@
 Summary:	Simple stereo recording tool
-Summary(pl.UTF-8):   Proste narzędzie do nagrywania w stereo
+Summary(pl.UTF-8):	Proste narzędzie do nagrywania w stereo
 Name:		qarecord
 Version:	0.0.9
 Release:	2
